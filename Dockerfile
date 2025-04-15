@@ -107,6 +107,5 @@ WITH_RBD:BOOL=ON
 EOF
 
 ENTRYPOINT \
-    ./vstart.sh --new $CEPH_VSTART_ARGS && \
-    sleep infinity
+    ./vstart.sh --new $CEPH_VSTART_ARGS
 
